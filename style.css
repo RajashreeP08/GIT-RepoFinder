@@ -1,0 +1,65 @@
+/* Centering layout */
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-wrapper {
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Card */
+.card {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Status Box */
+.status-box {
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+/* Error message */
+.error-box {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 20px;
+  border-radius: 12px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* Retry Button */
+.retry-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.retry-btn:hover {
+  background-color: #c82333;
+}
+
+/* Utility */
+.hidden {
+  display: none !important;
+}
+
+.language-badge {
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
